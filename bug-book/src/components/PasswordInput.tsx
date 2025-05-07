@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Input, InputProps } from "./input";
+import { Input, InputProps } from "@/components/ui/input";
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 
