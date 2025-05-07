@@ -14,8 +14,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import LoadingButton from "@/components/ui/LoadingButton";
-import { PasswordInput } from "@/components/ui/PasswordInput";
+import LoadingButton from "@/components/LoadingButton";
+import { PasswordInput } from "@/components/PasswordInput";
 
 export default function SignUpForm() {
   const [error, setError] = useState<string>();

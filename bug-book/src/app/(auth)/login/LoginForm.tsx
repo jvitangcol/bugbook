@@ -70,7 +70,7 @@ export default function LoginForm() {
         />
 
         <LoadingButton loading={isPending} type="submit" className="w-full">
-          Create Account
+          Login
         </LoadingButton>
       </form>
     </Form>
